@@ -1,0 +1,187 @@
+<?php /*
+			session_start();
+			if(!isset($_SESSION['usuario'])){
+				echo '
+					<script>
+						alert("Debe iniciar sesion");
+						window.location = "index.php";
+						</script>
+				';
+				session_destroy();
+				die();
+			}
+
+			*/?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DriFIM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/logo.png">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+	<link rel="stylesheet" href="assets/css/carreras.css">
+	<link rel="stylesheet" href="assets/css/cartas.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/3d48aee393.js"></script>
+	<title>Cursos de la facultad</title>
+</head>
+<body>
+		<header>
+		<div class="header-content">
+
+				<div class="logo">
+					<img src="assets/img/DriFIM.png">
+				</div>
+
+				<div class="menu"  id="show_menu">
+					<nav class="Conteiner__navegacion">
+						<ul>
+							<li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
+							<li><a href="cursos_FIM.php"><i class="fas fa-window-restore"></i> Cursos FIM</a></li>
+							<li><a href="Bibliotecas.php"><i class="fas fa-book"></i> Bibliotecas</a></li>
+							<li class="menu-selected" class="text-menu-selected"><a href="CentrosFIM.php"><i class="fas fa-window-restore"></i> Centros FIM</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div id="icon-menu">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		</header>
+
+		<div class="container-all" id="move-content">
+		<div class="container-content">
+    <article>
+		<H2>CENTROS DE INVESTIGACIÓN FIM</H2>
+		<div class="texto"><p>La Facultad de Ingeniería Mecánica cuenta con un centro de investigación por cada especialidad,
+			es así que tenemos a CIIM como Centro de Investigación de Ingeniería Mecánica, CEDIME como 
+			Centro de Investigación de Ingenieria Mecánica Eléctrica, Apein como Asociación Peruana de
+			Estudiantes de Ingeniería Naval y CEDIM como Centro de Investigación de Ingeniería Mecatrónica.
+			Aquí las principales redes de cada centro de investigación:
+		</p></div>
+		
+		<div class="container-box">
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/ciim.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+						<div class="logo_buttom">
+							<a target="_blank" href="https://www.facebook.com/ciim.edu"><img src="assets/img/facebook.webp" alt=""></a>
+						</div>
+						<div class="logo_buttom">
+							<a target="_blank" href="https://www.linkedin.com/company/ciim-uni-fim"><img src="assets/img/linkdln.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/cedime.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+						<div class="logo_buttom">
+								<a target="_blank" href="https://www.facebook.com/cedime"><img src="assets/img/facebook.webp" alt=""></a>
+						</div>
+						<div class="logo_buttom">
+								<a target="_blank" href="https://pe.linkedin.com/company/cedimemecanicaelectrica"><img src="assets/img/linkdln.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/apein.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+					<div class="logo_buttom">
+							<a target="_blank" href="https://www.facebook.com/apein.uni"><img src="assets/img/facebook.webp" alt=""></a>
+						</div>
+						<div class="logo_buttom">
+							<a target="_blank" href="https://pe.linkedin.com/in/apein-uni"><img src="assets/img/linkdln.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/cedim.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+							<div class="logo_buttom">
+								<a target="_blank" href="https://www.facebook.com/cedimuni"><img src="assets/img/facebook.webp" alt=""></a>
+							</div>
+							<div class="logo_buttom">
+								<a target="_blank" href="https://pe.linkedin.com/company/cedimuni"><img src="assets/img/linkdln.png" alt=""></a>
+							</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<h2>CEFIM y TEFIM</h2>
+
+		<div class="container-box">
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/ciim.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+						<div class="logo_buttom">
+							<a target="_blank" href="https://www.facebook.com/ciim.edu"><img src="assets/img/facebook.webp" alt=""></a>
+						</div>
+						<div class="logo_buttom">
+							<a target="_blank" href="https://www.linkedin.com/company/ciim-uni-fim"><img src="assets/img/linkdln.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		
+			<div class="owl-item">
+				<div class="item">
+					<div class="shadow_effect">
+						<img src="assets/img/cedime.jpeg" alt="">
+					</div>
+					<div class="bottom_item">
+						<div class="logo_buttom">
+								<a target="_blank" href="https://www.facebook.com/cedime"><img src="assets/img/facebook.webp" alt=""></a>
+						</div>
+						<div class="logo_buttom">
+								<a target="_blank" href="https://pe.linkedin.com/company/cedimemecanicaelectrica"><img src="assets/img/linkdln.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</article>
+	</div>
+	</div>
