@@ -400,4 +400,30 @@ img#foto-perfil{
 		flex-wrap: wrap;
 	}
 
+	article{
+		padding: 50px;
+	}
+
 }
+
+@media screen and (max-width: 700px){
+	article{
+		padding: 20px;
+		width: 98%;
+	}
+	article h1{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 550px){
+.container-aside aside{
+	width: 45%;
+}
+}
+
+@media screen and (max-width: 450px){
+	.container-aside aside{
+		width: 100%;
+	}
+	}
