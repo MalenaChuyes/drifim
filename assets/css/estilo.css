@@ -427,3 +427,13 @@ img#foto-perfil{
 		width: 100%;
 	}
 	}
+
+.biblio {
+	width: 40%;
+}
+
+@media screen and (max-width: 550px){
+	.biblio{
+		width: 90%;
+	}
+	}
