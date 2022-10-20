@@ -81,6 +81,10 @@ transition: transform 500ms ease;
     border-radius: 5px;
 }
 
+.card-content a{
+    color: black !important;
+}
+
 .button:hover,.button:focus{
     background-color: rgb(134, 160, 143);
 }
